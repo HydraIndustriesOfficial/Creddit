@@ -1,0 +1,7 @@
+.main_body_component {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
