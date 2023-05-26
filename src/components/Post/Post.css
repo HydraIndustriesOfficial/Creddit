@@ -1,19 +1,20 @@
 .post_container {
-  width: 100%;
-  background-color: red;
-  height: 100px;
+  background-color: #101415;
+  height: auto;
+  display: flex;
 }
 
 .post_arrows_container {
-  width: 200px;
-  background-color: blue;
-  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  align-content: center;
   justify-content: center;
-  gap: 10px;
+  align-items: center;
+  gap: 13px;
+  width: 135px;
+  height: auto;
+  padding: 8px 50px;
+  box-sizing: border-box;
+  background-color: rgba(63, 73, 72, 1);
 }
 
 .upVote {
@@ -36,4 +37,40 @@
   width: 100%;
   margin: 20px;
   gap: 15px;
+}
+
+.post_content_container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 20px;
+}
+
+hr {
+  margin: 0;
+  width: 100%;
+}
+
+.post_information {
+  color: white;
+  text-align: left;
+  width: 100%;
+}
+
+.user_information {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: white;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+h6 {
+  margin: 0;
 }
