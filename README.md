@@ -14,7 +14,7 @@ Crypto Discussions: Engage in discussions about the latest trends, projects, and
 Getting Started
 Follow these steps to get started with CryptoReddit:
 
-Clone the repository: git clone https://github.com/your-username/CryptoReddit.git
+Clone the repository: git clone https://github.com/HydraIndustriesOfficial/Creddit.git
 Install the necessary dependencies: npm install
 Configure your environment variables by creating a .env file and filling in the required information (API keys, database credentials, etc.).
 Launch the application: npm start
