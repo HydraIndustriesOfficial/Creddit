@@ -1,7 +1,7 @@
 {
   "name": "creddit",
   "version": "0.1.0",
-  "homepage": "https://hydraindustriesofficial.github.io/Creddit/",
+  "homepage": "https://HydraIndustriesOfficial.github.io/Creddit",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.22.0",
