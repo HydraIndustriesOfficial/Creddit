@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Creddit/static/css/main.2da54d0f.css",
+    "main.js": "/Creddit/static/js/main.dd7804e3.js",
+    "static/js/787.e43d0a6d.chunk.js": "/Creddit/static/js/787.e43d0a6d.chunk.js",
+    "static/media/creddit-high-resolution-logo-color-on-transparent-background.png": "/Creddit/static/media/creddit-high-resolution-logo-color-on-transparent-background.62330fd64a7e8eb97ff4.png",
+    "index.html": "/Creddit/index.html",
+    "main.2da54d0f.css.map": "/Creddit/static/css/main.2da54d0f.css.map",
+    "main.dd7804e3.js.map": "/Creddit/static/js/main.dd7804e3.js.map",
+    "787.e43d0a6d.chunk.js.map": "/Creddit/static/js/787.e43d0a6d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2da54d0f.css",
+    "static/js/main.dd7804e3.js"
+  ]
+}
