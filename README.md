@@ -1,7 +1,7 @@
 # CryptoReddit: Enhancing Reddit with Crypto Currency Functionality
 https://hydraindustriesofficial.github.io/Creddit/
 
-CryptoReddit is a powerful repository that brings together the best features of reddit.com and integrates them with exciting crypto currency capabilities. This README provides an overview of the project and how you can get started.
+CryptoReddit is a repository that brings together the best features of reddit.com and integrates them with exciting crypto currency capabilities. This README provides an overview of the project and how you can get started.
 
 ## Introduction
 CryptoReddit aims to revolutionize online communities by infusing them with the potential of crypto currencies. By leveraging the familiar interface of Reddit, users can now access a range of innovative tools and functionalities to explore, engage, and transact within crypto ecosystems.
