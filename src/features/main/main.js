@@ -8,7 +8,10 @@ class Main extends React.Component {
     return (
       <div className="main_body_component">
         <NavigationRailDark />
-        <Post />
+        <div className="posts_body">
+          <Post />
+          <Post />
+        </div>
       </div>
     );
   }

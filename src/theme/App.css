@@ -1,0 +1,16 @@
+@import url(tokens.css);
+@import url(colors.module.css);
+@import url(typography.module.css);
+@import url(theme.dark.css) (prefers-color-scheme: dark);
+
+.app_main {
+  background-color: var(--md-sys-color-background);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+  --radius: 15px;
+}

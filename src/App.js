@@ -1,7 +1,6 @@
-
 import { Header } from "../src/features/header/header";
 import Main from "../src/features/main/main";
-import "./App.css";
+import "../src/theme/App.css";
 
 function App() {
   return (
@@ -13,4 +12,3 @@ function App() {
 }
 
 export default App;
-
