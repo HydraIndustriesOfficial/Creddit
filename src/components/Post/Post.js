@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from "react";
 import "./Post.css";
+import IconButton from "@mui/material/IconButton";
 import "../../theme/typography.module.css";
 import "../../theme/theme.dark.css";
 import {
   BsFillArrowUpSquareFill,
   BsFillArrowDownSquareFill,
 } from "react-icons/bs";
-import { BsChatLeft } from "react-icons/bs";
+import ChatBubbleTwoToneIcon from "@mui/icons-material/ChatBubbleTwoTone";
 
-const Post = () => {
+export default function Post() {
   const [increase, setIncrease] = useState(0);
   const [number, setNumber] = useState(0);
   const [upVoteClicked, setUpVoteClicked] = useState(false);
@@ -55,6 +56,7 @@ const Post = () => {
   useEffect(() => {
     setNumber(number + increase);
   }, [upVoteClicked, downVoteClicked]);
+
   return (
     <div className="post_wrapper">
       <div className="post_container">
@@ -93,7 +95,17 @@ const Post = () => {
             <h6 className="title-small">UserName</h6>
             <h6 className="title-small">20 hrs ago</h6>
             <h6 className="title-small">
-              <BsChatLeft />
+              <IconButton
+                style={{
+                  color: "var(--md-sys-color-primary)",
+                }}
+              >
+                <ChatBubbleTwoToneIcon
+                  style={{
+                    color: "var(--md-sys-color-on-surface)",
+                  }}
+                />
+              </IconButton>
               &nbsp; 8
             </h6>
           </div>
@@ -101,6 +113,4 @@ const Post = () => {
       </div>
     </div>
   );
-};
-
-export default Post;
+}

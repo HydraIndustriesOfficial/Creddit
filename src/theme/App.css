@@ -13,4 +13,5 @@
 
 :root {
   --radius: 15px;
+  --primary: "var(--md-sys-color-primary)";
 }

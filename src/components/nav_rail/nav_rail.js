@@ -1,17 +1,47 @@
-import React from "react";
+import React, { useState } from "react";
+import Stack from "@mui/material/Stack";
 import "./nav_rail.css";
+import Button from "@mui/material/Button";
+import "../../theme/theme.dark.css";
+import { createTheme } from "@mui/material/styles";
+import { Modal } from "antd";
 
 export const NavigationRailDark = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const showModal = () => {
+    setIsModalOpen(true);
+  };
+  const handleOk = () => {
+    setIsModalOpen(false);
+  };
+  const handleCancel = () => {
+    setIsModalOpen(false);
+  };
+  const buttonsArray = ["feed", "social", "wallet", "charts"];
   return (
     <div className="navigation-rail-dark clip-contents">
       <div className="destinations-dark clip-contents">
         <div className="segment-2">
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/pi1fah66kqh-I54205%3A35286%3B52069%3A23977%3B52036%3A22424?alt=media&token=e8284b9d-c242-46e4-8d82-a8b230a805b3"
-            alt="Not Found"
-            className="icon-container"
-          />
-          <p className="label">Social</p>
+          <Stack direction="column" spacing={3}>
+            {buttonsArray.map((item) => {
+              return (
+                <>
+                  <Button
+                    onClick={showModal}
+                    variant="outlined"
+                    className="buttons"
+                    style={{
+                      color: "var(--md-sys-color-on-secondary-container)",
+                      backgroundColor:
+                        "var(--md-sys-color-secondary-container)",
+                    }}
+                  >
+                    {item}
+                  </Button>
+                </>
+              );
+            })}
+          </Stack>
         </div>
       </div>
     </div>
