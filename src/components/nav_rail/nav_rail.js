@@ -3,20 +3,10 @@ import Stack from "@mui/material/Stack";
 import "./nav_rail.css";
 import Button from "@mui/material/Button";
 import "../../theme/theme.dark.css";
-import { createTheme } from "@mui/material/styles";
-import { Modal } from "antd";
+
 
 export const NavigationRailDark = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const showModal = () => {
-    setIsModalOpen(true);
-  };
-  const handleOk = () => {
-    setIsModalOpen(false);
-  };
-  const handleCancel = () => {
-    setIsModalOpen(false);
-  };
+ 
   const buttonsArray = ["feed", "social", "wallet", "charts"];
   return (
     <div className="navigation-rail-dark clip-contents">
@@ -27,7 +17,6 @@ export const NavigationRailDark = () => {
               return (
                 <>
                   <Button
-                    onClick={showModal}
                     variant="outlined"
                     className="buttons"
                     style={{
