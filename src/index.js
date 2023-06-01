@@ -6,7 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { Honeybadger, HoneybadgerErrorBoundary } from "@honeybadger-io/react";
 
 const config = {
-  apiKey: ${{ secrets.HONEBADGER_API }},
+  apiKey: ${{ process.env.HONEBADGER_API }},
   environment: "production",
 };
 const honeybadger = Honeybadger.configure(config);
