@@ -13,7 +13,7 @@ We take security vulnerabilities seriously and appreciate the efforts of researc
 ### Reporting Process
 
 1. **Step 1**: Submitting the Report
-   - Contact us by sending an email to [security@example.com](mailto:security@example.com) with a detailed description of the vulnerability.
+   - Contact us by sending an email to [kahlob@hydratechnologies.us](mailto:kahlob@hydratechnologies.us) with a detailed description of the vulnerability.
    - Include the steps to reproduce the vulnerability, along with any relevant information or tools used.
    - If possible, provide a proof-of-concept or a demonstration of the vulnerability.
    - You can expect an acknowledgment of your report within 24 hours.
@@ -59,5 +59,5 @@ We kindly request that you adhere to responsible disclosure practices while inve
 
 We are committed to working with security researchers to understand and resolve any issues promptly. Your contributions to the security of this project are greatly appreciated.
 
-If you have any questions or concerns regarding our security policy or the handling of vulnerabilities, please contact us at [security@example.com](mailto:security@example.com).
+If you have any questions or concerns regarding our security policy or the handling of vulnerabilities, please contact us at [kahlob@hydratechnologies.us](mailto:kahlob@hydratechnologies.us).
 
