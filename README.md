@@ -13,19 +13,6 @@ Crypto Rewards: Earn rewards in crypto currencies for valuable contributions, fo
 Blockchain Integration: Leverage the transparency and immutability of blockchain technology to enhance trust and security within your community.
 Crypto Tipping: Show appreciation for quality content or helpful users by tipping them with crypto currencies.
 Crypto Discussions: Engage in discussions about the latest trends, projects, and developments in the crypto world with like-minded individuals.
-Getting Started
-Follow these steps to get started with CryptoReddit:
-
-Clone the repository: git clone https://github.com/HydraIndustriesOfficial/Creddit.git
-Install the necessary dependencies: npm install
-Configure your environment variables by creating a .env file and filling in the required information (API keys, database credentials, etc.).
-Launch the application: npm start
-Access CryptoReddit by opening your browser and navigating to http://localhost:3000.
-Contributing
-We welcome contributions from the community to help improve CryptoReddit. If you would like to contribute, please follow our contribution guidelines and submit a pull request.
-
-License
-CryptoReddit is licensed under the MIT License, allowing you to freely use, modify, and distribute the code.
 
 Feedback and Support
 If you have any feedback, questions, or need support, please open an issue on GitHub. We'll be glad to assist you!
